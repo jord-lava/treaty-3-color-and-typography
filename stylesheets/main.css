@@ -16,11 +16,21 @@ colors and why i added them to the website
   -nuteral color that is easy for user to read on this webpage
 -(0,0,0) (black-used for main text on webpage) same reasons as above^^
 
+I used serif fonts to make my website look traditional and trustworthy
 */
 
 /* 
   styles all elements to use the fonts that are listed 
   below and for the font size to be 62.5% of defult font of the browser being used
+*/
+* {
+  line-height: 140%;
+}
+
+/* 
+  "sets the font size to be 62.5% the defult font size for the browser" -Jess Linsangan 
+  sets the font to georgia and if its not availble use times new roman, and if its 
+  not availbe use the defult serif font
 */
 html {
   font-size: 62.5%;
@@ -32,12 +42,16 @@ html {
  -a font size of 1.6 rems (size 16 fonts)
  -have the color of the background to be an off white with a warm undertone
  -to have margin (sapce outsie of the content) on the left and right to be 2 rems
+ -made the spacing between the words 0.1rem
+ -the saping between the letters is 0.05 rems
 */
 body {
   font-size: 1.6rem;
-  background-color: rgb(250, 247, 244);
+  background-color: 250, 247, 244;
   margin-left: 2rem;
   margin-right: 2rem;
+  word-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
 }
 
 /* 
@@ -98,6 +112,7 @@ h2 {
 /* makes the line spacing of a paragraph to be 2 rems  */
 p {
   line-height: 2rem;
+  color: black;
 }
 
 /* syles the thid largest heading to be a dark blue */
@@ -145,4 +160,10 @@ footer ul li {
   display: inline-block;
   /* gets rid of bullet point */
   list-style: none;
+}
+
+/* colors the focus and hover (when hovering or tabing on an elemnt) of the footer to be orange to improve readabilty */
+footer a:focus,
+footer a:hover {
+  background-color: #eb9651;
 }
