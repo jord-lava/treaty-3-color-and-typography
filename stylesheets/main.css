@@ -162,7 +162,10 @@ footer ul li {
   list-style: none;
 }
 
-/* colors the focus and hover (when hovering or tabing on an elemnt) of the footer to be orange to improve readabilty */
+/* 
+  colors the focus and hover (when hovering or tabing on an elemnt) of 
+  the footer to be a darker orange to improve readabilty 
+*/
 footer a:focus,
 footer a:hover {
   background-color: #eb9651;
