@@ -19,6 +19,11 @@
         border: 2px solid black;
         border-radius: 5px;
       }
+
+      /* makes figure with the id of figures and caption move (float) to the right */
+      #figures-and-caption {
+        float: right;
+      }
     </style>
   </head>
   <body>
@@ -35,6 +40,23 @@
     </header>
 
     <main>
+      <!-- image of map -->
+      <section id="figures-and-caption">
+        <figure>
+          <img
+            src="images/northwest_angle.png"
+            width="85%"
+            alt="image of a map of western Ontario and eastern Manitoba that points 
+            where the northwest angle of lake of the woods is. it is on the northen 
+            west side of the lake" />
+
+          <figcaption width="30%">
+            Map showing the <em>Northwest angle of <u>Lake of The Woods</u></em>
+          </figcaption>
+          <!-- where i got the image from: https://en.wikipedia.org/wiki/Northwest_Angle -->
+        </figure>
+      </section>
+
       <section>
         <h2>History of Treaty 3</h2>
         <!-- infomation about when and where treaty was signed -->
@@ -58,26 +80,11 @@
         </ul>
       </section>
 
-      <!-- adds space inbtween sections -->
+      <!-- adds space to bottom of page-->
       <br />
       <br />
-
-      <!-- image of map -->
-      <section id="figures-and-caption">
-        <figure>
-          <img
-            src="images/northwest_angle.png"
-            width="40%"
-            alt="image of a map of western Ontario and eastern Manitoba that points 
-            where the northwest angle of lake of the woods is. it is on the northen 
-            west side of the lake" />
-
-          <figcaption>
-            Map showing the <em>Northwest angle of <u>Lake of The Woods</u></em>
-          </figcaption>
-          <!-- where i got the image from: https://en.wikipedia.org/wiki/Northwest_Angle -->
-        </figure>
-      </section>
+      <br />
+      <br />
     </main>
 
     <footer>
